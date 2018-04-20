@@ -1,0 +1,112 @@
+﻿  Login1.cpp
+c:\users\user\source\repos\loaderui\loaderui\Main.h(20): error C2664: 'DWORD GetModuleFileNameW(HMODULE,LPWSTR,DWORD)': cannot convert argument 2 from 'char [260]' to 'LPWSTR'
+  c:\users\user\source\repos\loaderui\loaderui\Main.h(20): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\user\source\repos\loaderui\loaderui\Main.h(36): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  c:\users\user\source\repos\loaderui\loaderui\Main.h(36): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(17): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(17): error C2059: syntax error: 'constant'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(23): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(23): error C2059: syntax error: 'constant'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(115): warning C4805: '==': unsafe mix of type 'BOOL' and type 'bool' in operation
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(322): warning C4244: 'return': conversion from 'ULONG_PTR' to 'DWORD', possible loss of data
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(510): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(512): error C2059: syntax error: 'constant'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(528): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(530): error C2065: 'push': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(531): error C2146: syntax error: missing ';' before identifier 'ss'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(530): error C2065: 'ss': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(531): error C2146: syntax error: missing ';' before identifier 'pop'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(531): error C2065: 'pop': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(532): error C2146: syntax error: missing ';' before identifier 'ss'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(531): error C2065: 'ss': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(532): error C2146: syntax error: missing ';' before identifier 'mov'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(532): error C2065: 'mov': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(532): error C2146: syntax error: missing ';' before identifier 'eax'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(532): error C2065: 'eax': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(533): error C2146: syntax error: missing ';' before identifier 'xor'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(533): error C2065: 'xor': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(533): error C2146: syntax error: missing ';' before identifier 'edx'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(533): error C2065: 'edx': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(534): error C2143: syntax error: missing ';' before '}'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(618): warning C4311: 'type cast': pointer truncation from 'unsigned char *' to 'ULONG'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(618): warning C4302: 'type cast': truncation from 'unsigned char *' to 'ULONG'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(621): warning C4312: 'type cast': conversion from 'ULONG' to 'unsigned char *' of greater size
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(639): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(639): error C2065: '__emit': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(639): error C2143: syntax error: missing ';' before 'constant'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(640): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(640): error C2146: syntax error: missing ';' before identifier '__emit'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(640): error C2065: '__emit': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(640): error C2143: syntax error: missing ';' before 'constant'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(641): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(641): error C2146: syntax error: missing ';' before identifier '__emit'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(641): error C2065: '__emit': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(641): error C2143: syntax error: missing ';' before 'constant'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(642): error C2143: syntax error: missing ';' before '}'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(687): warning C4996: 'GetVersionExW': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\sysinfoapi.h(445): note: see declaration of 'GetVersionExW'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(829): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(831): error C2065: 'mov': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(831): error C2146: syntax error: missing ';' before identifier 'eax'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(831): error C2065: 'eax': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(833): error C2146: syntax error: missing ';' before identifier 'push'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(833): error C2065: 'push': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(834): error C2146: syntax error: missing ';' before identifier 'MemBpBeingDebugged'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(833): error C2065: 'MemBpBeingDebugged': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(834): error C2146: syntax error: missing ';' before identifier 'jmp'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(834): error C2065: 'jmp': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(835): error C2146: syntax error: missing ';' before identifier 'eax'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(834): error C2065: 'eax': undeclared identifier
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(835): error C2143: syntax error: missing ';' before '}'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(844): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(844): error C2059: syntax error: '}'
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(857): error C2664: 'void OutputDebugStringW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(857): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(865): error C2664: 'void OutputDebugStringW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(865): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(873): error C2664: 'void OutputDebugStringW(LPCWSTR)': cannot convert argument 1 from 'const char [9]' to 'LPCWSTR'
+  c:\users\user\source\repos\loaderui\loaderui\AntiLeak.h(873): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\user\source\repos\loaderui\loaderui\Login1.h(16): fatal error C1083: Cannot open include file: 'curl.h': No such file or directory
+  ManualMap.cpp
+c:\users\user\source\repos\loaderui\loaderui\Main.h(20): error C2664: 'DWORD GetModuleFileNameW(HMODULE,LPWSTR,DWORD)': cannot convert argument 2 from 'char [260]' to 'LPWSTR'
+  c:\users\user\source\repos\loaderui\loaderui\Main.h(20): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+c:\users\user\source\repos\loaderui\loaderui\Main.h(36): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  c:\users\user\source\repos\loaderui\loaderui\Main.h(36): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+ManualMap.cpp(46): warning C4311: 'type cast': pointer truncation from 'LPBYTE' to 'DWORD'
+ManualMap.cpp(46): warning C4302: 'type cast': truncation from 'LPBYTE' to 'DWORD'
+ManualMap.cpp(92): warning C4311: 'type cast': pointer truncation from 'FARPROC' to 'DWORD'
+ManualMap.cpp(92): warning C4302: 'type cast': truncation from 'FARPROC' to 'DWORD'
+ManualMap.cpp(107): warning C4311: 'type cast': pointer truncation from 'FARPROC' to 'DWORD'
+ManualMap.cpp(107): warning C4302: 'type cast': truncation from 'FARPROC' to 'DWORD'
+ManualMap.cpp(350): warning C4311: 'type cast': pointer truncation from 'DWORD (__cdecl *)(void)' to 'DWORD'
+ManualMap.cpp(350): warning C4302: 'type cast': truncation from 'DWORD (__cdecl *)(void)' to 'DWORD'
+ManualMap.cpp(350): warning C4311: 'type cast': pointer truncation from 'DWORD (__cdecl *)(PVOID)' to 'DWORD'
+ManualMap.cpp(350): warning C4302: 'type cast': truncation from 'DWORD (__cdecl *)(PVOID)' to 'DWORD'
+ManualMap.cpp(415): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'long' can equal the given constant
+ManualMap.cpp(424): error C2664: 'int _stricmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  ManualMap.cpp(424): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+ManualMap.cpp(448): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  ManualMap.cpp(448): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+  Mem.cpp
+Mem.cpp(35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+Mem.cpp(37): warning C4018: '<': signed/unsigned mismatch
+Mem.cpp(40): warning C4312: 'type cast': conversion from 'unsigned long' to 'LPVOID' of greater size
+Mem.cpp(67): error C2664: 'int _stricmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  Mem.cpp(67): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Mem.cpp(100): error C2664: 'int _stricmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  Mem.cpp(100): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Mem.cpp(104): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+Mem.cpp(104): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+Mem.cpp(187): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [260]' to 'const char *'
+  Mem.cpp(187): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Mem.cpp(262): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  Mem.cpp(262): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Mem.cpp(265): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+Mem.cpp(265): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+Mem.cpp(279): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+  Mem.cpp(279): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+Mem.cpp(360): warning C4312: 'type cast': conversion from 'unsigned long' to 'LPCVOID' of greater size
+Mem.cpp(370): warning C4311: 'type cast': pointer truncation from 'PVOID' to 'DWORD'
+Mem.cpp(370): warning C4302: 'type cast': truncation from 'PVOID' to 'DWORD'
+Mem.cpp(376): warning C4244: '+=': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+  Generating Code...
